@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
   s.source = { :git => "https://github.com/faruuqq/RWPickFlavor.git", 
                :tag => "#{s.version}" }
+
+  s.vendored_frameworks = 'Archives/RWPickFlavor.xcframework'
   
   # 7
   s.framework = "UIKit"
