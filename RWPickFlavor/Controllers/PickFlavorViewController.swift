@@ -28,7 +28,6 @@
 
 import UIKit
 import Alamofire
-import MBProgressHUD
 
 public class PickFlavorViewController: UIViewController {
   
@@ -90,12 +89,11 @@ public class PickFlavorViewController: UIViewController {
   }
   
   private func showLoadingHUD() {
-    let hud = MBProgressHUD.showAdded(to: contentView, animated: true)
-    hud.label.text = "Loading..."
+    
   }
   
   private func hideLoadingHUD() {
-    MBProgressHUD.hide(for: contentView, animated: true)
+    
   }
   
   private func selectFirstFlavor() {
