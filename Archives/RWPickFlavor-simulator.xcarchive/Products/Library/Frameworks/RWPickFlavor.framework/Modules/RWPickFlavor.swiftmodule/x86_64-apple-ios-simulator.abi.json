@@ -1,0 +1,2024 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "RWPickFlavor"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PickFlavorViewController",
+        "printedName": "PickFlavorViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RWPickFlavor@objc(cs)PickFlavorViewController(im)viewDidLoad",
+            "mangledName": "$s12RWPickFlavor04PickB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "RWPickFlavor",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PickFlavorViewController",
+                "printedName": "RWPickFlavor.PickFlavorViewController",
+                "usr": "c:@M@RWPickFlavor@objc(cs)PickFlavorViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RWPickFlavor@objc(cs)PickFlavorViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12RWPickFlavor04PickB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "RWPickFlavor",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RWPickFlavor.PickFlavorViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PickFlavorViewController",
+                    "printedName": "RWPickFlavor.PickFlavorViewController",
+                    "usr": "c:@M@RWPickFlavor@objc(cs)PickFlavorViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@RWPickFlavor@objc(cs)PickFlavorViewController(im)initWithCoder:",
+            "mangledName": "$s12RWPickFlavor04PickB14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "RWPickFlavor",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "collectionView",
+            "printedName": "collectionView(_:didSelectItemAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UICollectionView",
+                "printedName": "UIKit.UICollectionView",
+                "usr": "c:objc(cs)UICollectionView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RWPickFlavor@objc(cs)PickFlavorViewController(im)collectionView:didSelectItemAtIndexPath:",
+            "mangledName": "$s12RWPickFlavor04PickB14ViewControllerC010collectionD0_15didSelectItemAtySo012UICollectionD0C_10Foundation9IndexPathVtF",
+            "moduleName": "RWPickFlavor",
+            "objc_name": "collectionView:didSelectItemAtIndexPath:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RWPickFlavor@objc(cs)PickFlavorViewController",
+        "mangledName": "$s12RWPickFlavor04PickB14ViewControllerC",
+        "moduleName": "RWPickFlavor",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/ScoopCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1801,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Controllers\/PickFlavorDataSource.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 11,
+      "value": "\"ScoopCell\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Controllers\/PickFlavorDataSource.swift",
+      "kind": "Array",
+      "offset": 1878,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/ScoopView.swift",
+      "kind": "Array",
+      "offset": 2360,
+      "length": 6,
+      "value": "[0, 1]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 1831,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 1963,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 1983,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 2001,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 2021,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "StringLiteral",
+      "offset": 2209,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2263,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 7,
+      "value": "\"255.0\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2341,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2425,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 2430,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2486,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 2491,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2539,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2546,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 2551,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2600,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2607,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Categories\/RGBAColorFromString.swift",
+      "kind": "FloatLiteral",
+      "offset": 2612,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2047,
+      "length": 3,
+      "value": "184"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2059,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2070,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2122,
+      "length": 3,
+      "value": "209"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2134,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2145,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2199,
+      "length": 3,
+      "value": "235"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2211,
+      "length": 3,
+      "value": "183"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2222,
+      "length": 3,
+      "value": "131"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "Array",
+      "offset": 2600,
+      "length": 6,
+      "value": "[0, 1]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2727,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2740,
+      "length": 4,
+      "value": "-0.1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2791,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2849,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2897,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2910,
+      "length": 3,
+      "value": "3.1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2956,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3017,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3069,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3082,
+      "length": 3,
+      "value": "3.1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3132,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3239,
+      "length": 7,
+      "value": "0.98284"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3278,
+      "length": 7,
+      "value": "0.29579"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3353,
+      "length": 7,
+      "value": "0.49020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3392,
+      "length": 7,
+      "value": "0.35519"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3478,
+      "length": 7,
+      "value": "0.98284"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3517,
+      "length": 7,
+      "value": "0.29579"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3603,
+      "length": 7,
+      "value": "0.72844"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3642,
+      "length": 7,
+      "value": "0.35519"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3717,
+      "length": 7,
+      "value": "0.01225"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3756,
+      "length": 7,
+      "value": "0.29579"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3842,
+      "length": 7,
+      "value": "0.25196"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3881,
+      "length": 7,
+      "value": "0.35519"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3967,
+      "length": 7,
+      "value": "0.01225"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4006,
+      "length": 7,
+      "value": "0.29579"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4080,
+      "length": 7,
+      "value": "0.49265"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4119,
+      "length": 7,
+      "value": "0.98886"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4193,
+      "length": 7,
+      "value": "0.98284"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4232,
+      "length": 7,
+      "value": "0.29579"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4658,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4669,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4851,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5329,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5478,
+      "length": 7,
+      "value": "0.41667"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5517,
+      "length": 7,
+      "value": "0.86881"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5595,
+      "length": 7,
+      "value": "0.62255"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5634,
+      "length": 7,
+      "value": "0.79950"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5720,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5871,
+      "length": 7,
+      "value": "0.34804"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5910,
+      "length": 7,
+      "value": "0.76980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5988,
+      "length": 7,
+      "value": "0.73039"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6027,
+      "length": 7,
+      "value": "0.64604"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6113,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6264,
+      "length": 7,
+      "value": "0.27941"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6303,
+      "length": 7,
+      "value": "0.67079"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6381,
+      "length": 7,
+      "value": "0.82843"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6420,
+      "length": 7,
+      "value": "0.50743"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6506,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6657,
+      "length": 7,
+      "value": "0.21078"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6696,
+      "length": 7,
+      "value": "0.57178"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6774,
+      "length": 7,
+      "value": "0.92647"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6813,
+      "length": 7,
+      "value": "0.36881"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6899,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7050,
+      "length": 7,
+      "value": "0.14216"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7089,
+      "length": 7,
+      "value": "0.47277"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7167,
+      "length": 7,
+      "value": "0.53431"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7206,
+      "length": 7,
+      "value": "0.35891"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7292,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7443,
+      "length": 7,
+      "value": "0.07353"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7482,
+      "length": 7,
+      "value": "0.37376"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7560,
+      "length": 7,
+      "value": "0.20098"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 7599,
+      "length": 7,
+      "value": "0.33416"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7685,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7847,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8007,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8158,
+      "length": 7,
+      "value": "0.64706"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8197,
+      "length": 7,
+      "value": "0.76733"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8275,
+      "length": 7,
+      "value": "0.25490"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8314,
+      "length": 7,
+      "value": "0.64356"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8400,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8554,
+      "length": 7,
+      "value": "0.71569"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8593,
+      "length": 7,
+      "value": "0.66832"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8672,
+      "length": 7,
+      "value": "0.16176"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8711,
+      "length": 7,
+      "value": "0.50248"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8798,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8953,
+      "length": 7,
+      "value": "0.78922"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8992,
+      "length": 7,
+      "value": "0.56683"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9071,
+      "length": 7,
+      "value": "0.06373"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9110,
+      "length": 7,
+      "value": "0.35891"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9197,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9352,
+      "length": 7,
+      "value": "0.85294"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9391,
+      "length": 7,
+      "value": "0.46535"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9470,
+      "length": 7,
+      "value": "0.46078"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9509,
+      "length": 7,
+      "value": "0.35644"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9596,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9751,
+      "length": 7,
+      "value": "0.92157"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9790,
+      "length": 7,
+      "value": "0.37129"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9869,
+      "length": 7,
+      "value": "0.79412"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9908,
+      "length": 7,
+      "value": "0.33168"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9995,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10150,
+      "length": 7,
+      "value": "0.58333"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10189,
+      "length": 7,
+      "value": "0.85891"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10269,
+      "length": 7,
+      "value": "0.35784"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10308,
+      "length": 7,
+      "value": "0.78465"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10399,
+      "length": 7,
+      "value": "0.36765"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10438,
+      "length": 7,
+      "value": "0.78465"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10529,
+      "length": 7,
+      "value": "0.35784"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10568,
+      "length": 7,
+      "value": "0.78465"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10655,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10797,
+      "length": 7,
+      "value": "0.39216"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10836,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10912,
+      "length": 7,
+      "value": "0.50000"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10951,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11038,
+      "length": 7,
+      "value": "0.43137"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11077,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11164,
+      "length": 7,
+      "value": "0.43137"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11203,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11279,
+      "length": 7,
+      "value": "0.58824"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11318,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11405,
+      "length": 7,
+      "value": "0.56863"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11444,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11531,
+      "length": 7,
+      "value": "0.54902"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11570,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11646,
+      "length": 7,
+      "value": "0.68627"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11685,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11772,
+      "length": 7,
+      "value": "0.62745"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11810,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11897,
+      "length": 7,
+      "value": "0.62745"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11936,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12012,
+      "length": 7,
+      "value": "0.78431"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12051,
+      "length": 7,
+      "value": "0.33663"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12138,
+      "length": 7,
+      "value": "0.74510"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12177,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12264,
+      "length": 7,
+      "value": "0.74510"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12303,
+      "length": 7,
+      "value": "0.33663"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12379,
+      "length": 7,
+      "value": "0.88235"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12418,
+      "length": 7,
+      "value": "0.37129"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12505,
+      "length": 7,
+      "value": "0.82353"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12544,
+      "length": 7,
+      "value": "0.33663"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12631,
+      "length": 7,
+      "value": "0.82353"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12670,
+      "length": 7,
+      "value": "0.37129"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12746,
+      "length": 7,
+      "value": "0.99020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12785,
+      "length": 7,
+      "value": "0.30198"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12872,
+      "length": 7,
+      "value": "0.94118"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12911,
+      "length": 7,
+      "value": "0.37129"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 12998,
+      "length": 7,
+      "value": "0.99020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13037,
+      "length": 7,
+      "value": "0.31683"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13113,
+      "length": 7,
+      "value": "0.99020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13152,
+      "length": 7,
+      "value": "0.25248"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13239,
+      "length": 7,
+      "value": "0.99020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13278,
+      "length": 7,
+      "value": "0.28713"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13365,
+      "length": 7,
+      "value": "0.99020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13404,
+      "length": 7,
+      "value": "0.26967"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13480,
+      "length": 7,
+      "value": "0.50000"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13519,
+      "length": 7,
+      "value": "0.00495"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13606,
+      "length": 7,
+      "value": "0.99020"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13645,
+      "length": 7,
+      "value": "0.11577"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13732,
+      "length": 7,
+      "value": "0.77073"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13771,
+      "length": 7,
+      "value": "0.00495"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13847,
+      "length": 7,
+      "value": "0.00980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13886,
+      "length": 7,
+      "value": "0.25248"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 13973,
+      "length": 7,
+      "value": "0.22927"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14012,
+      "length": 7,
+      "value": "0.00495"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14099,
+      "length": 7,
+      "value": "0.00980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14138,
+      "length": 7,
+      "value": "0.11577"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14214,
+      "length": 7,
+      "value": "0.00980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14253,
+      "length": 7,
+      "value": "0.30198"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14340,
+      "length": 7,
+      "value": "0.00980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14379,
+      "length": 7,
+      "value": "0.27047"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14466,
+      "length": 7,
+      "value": "0.00980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14505,
+      "length": 7,
+      "value": "0.28713"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14581,
+      "length": 7,
+      "value": "0.10784"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14620,
+      "length": 7,
+      "value": "0.37624"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14707,
+      "length": 7,
+      "value": "0.00980"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14746,
+      "length": 7,
+      "value": "0.31683"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14833,
+      "length": 7,
+      "value": "0.04902"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14872,
+      "length": 7,
+      "value": "0.37624"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14948,
+      "length": 7,
+      "value": "0.19608"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14987,
+      "length": 7,
+      "value": "0.33663"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15074,
+      "length": 7,
+      "value": "0.16667"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15113,
+      "length": 7,
+      "value": "0.37624"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15200,
+      "length": 7,
+      "value": "0.15686"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15239,
+      "length": 7,
+      "value": "0.33663"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15315,
+      "length": 7,
+      "value": "0.29412"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15354,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15441,
+      "length": 7,
+      "value": "0.23529"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15480,
+      "length": 7,
+      "value": "0.33663"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15567,
+      "length": 7,
+      "value": "0.22549"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15606,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15682,
+      "length": 7,
+      "value": "0.39216"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15721,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15808,
+      "length": 7,
+      "value": "0.36275"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15847,
+      "length": 7,
+      "value": "0.40099"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15934,
+      "length": 7,
+      "value": "0.35294"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Views\/IceCreamView.swift",
+      "kind": "FloatLiteral",
+      "offset": 15973,
+      "length": 7,
+      "value": "0.35149"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 1887,
+      "length": 9,
+      "value": "\"Vanilla\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1943,
+      "length": 3,
+      "value": "251"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1955,
+      "length": 3,
+      "value": "248"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1966,
+      "length": 3,
+      "value": "236"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2020,
+      "length": 3,
+      "value": "230"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2032,
+      "length": 3,
+      "value": "215"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2043,
+      "length": 3,
+      "value": "171"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 2118,
+      "length": 11,
+      "value": "\"Chocolate\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2176,
+      "length": 3,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2188,
+      "length": 3,
+      "value": "140"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2199,
+      "length": 2,
+      "value": "58"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2252,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2264,
+      "length": 2,
+      "value": "46"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2274,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 10,
+      "value": "\"topColor\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 13,
+      "value": "\"bottomColor\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Models\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 2708,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Controllers\/PickFlavorViewController.swift",
+      "kind": "Array",
+      "offset": 1813,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Controllers\/PickFlavorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 55,
+      "value": "\"https:\/\/www.raywenderlich.com\/downloads\/Flavors.plist\""
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Controllers\/PickFlavorViewController.swift",
+      "kind": "Array",
+      "offset": 2924,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammad.f.qayyum\/Documents\/Sandbox\/RnDModular\/IceCreamShop\/RWPickFlavor\/RWPickFlavor\/Controllers\/PickFlavorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2969,
+      "length": 28,
+      "value": "\"Couldn't download flavors!\""
+    }
+  ]
+}
