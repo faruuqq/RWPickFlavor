@@ -2,10 +2,11 @@
 //  RWPickFlavor.h
 //  RWPickFlavor
 //
-//  Created by Muhammad Faruuq Qayyum on 23/05/23.
+//  Created by Keegan Rush on 2018/06/21.
+//  Copyright © 2018 RazeWare. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for RWPickFlavor.
 FOUNDATION_EXPORT double RWPickFlavorVersionNumber;
